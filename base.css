@@ -1,0 +1,23 @@
+html,body{margin:0;}
+body{font-family:'Inconsolata', monospace;font-size:1em;text-align:justify;text-justify:inter-word;margin-top:100px;}
+img{max-width:100%;}
+p{line-height:1.6em;}
+#header{text-align:center;}
+#header h1{font-size:2.6em;font-weight:400;}
+#header ul{list-style:none;margin:0;padding:0;}
+#header ul li{display:inline-block;}
+#header a:link,#header a:visited{text-decoration:none;color:#000;font-weight:bold;padding:0.6em 0.3em;}
+#header a:hover{border-bottom:solid 2px #000;padding-bottom:0px;}
+#content{width:50%;margin:0 auto;text-align:center;}
+#main{float:left;width:100%;}
+pre{white-space:pre-wrap;word-wrap:break-word;background:#f8f8f8;padding:20px;border-radius:15px;border:solid 1px #ddd;}
+blockquote{margin-left:40px;margin-right:20px}
+blockquote p{border-left:solid 3px #364fc7;padding-left:20px;}
+#footer{position:relative;bottom:0;left:0;width:100%;text-align:center;clear:both;padding-top:40px;}
+#footer .small{font-size:0.8em;color:#999;}
+@media only screen and (max-width:40em){
+	body{font-size:1.2em;}
+	#content{width:85%;}
+	#main{width:100%;padding-right:0px;}
+	#sidebar{width:100%;}
+}
